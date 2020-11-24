@@ -1,0 +1,28 @@
+#movies img,
+#movies img {
+    width: 100%;
+}
+
+@media(min-width:960px) {
+    #movies .col-md-3 .well {
+        height: 390px;
+    }
+    #movies .col-md-3 img {
+        height: 240px;
+        /* width: 250px;
+        height: 320px;
+        margin: 19px 15px;
+        border-radius:20px; */
+    
+    }
+
+#movies img,
+#movies img:hover
+{
+    height: 270px;
+    width: 250px;
+    margin: 19px 15px;
+    box-shadow: 10px 10px 10px maroon;
+    border-radius:20px;   
+}
+}
